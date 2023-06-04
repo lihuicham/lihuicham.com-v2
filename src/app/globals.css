@@ -26,25 +26,10 @@ body {
     rgb(var(--background-start-rgb));
 } */
 
-:root {
-  --primary-base: #fbfbfc;
-  --secondary-base: #f8f9fb;
-  --tertiary-base: #eceff4;
-  --primary-text: #4c566a;
-  --secondary-text: #5e81ac;
-  --tertiary-text: #a0a9b8;
-
-}
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0
-}
-
-body {
-  color: var(--primary-text);
-  background: var(--primary-base)
 }
 
 html {
