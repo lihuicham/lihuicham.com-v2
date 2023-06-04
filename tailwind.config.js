@@ -12,7 +12,7 @@ module.exports = {
       'secondary-base': '#f8f9fb',
       'tertiary-base': '#eceff4',
       'primary-text': '#4c566a',
-      'secondary-text': '#5e81ac',
+      'secondary-text': '#365D82',
       'tertiary-text': '#a0a9b8',
     }
   },
