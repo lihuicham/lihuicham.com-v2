@@ -9,7 +9,7 @@ export default function Home() {
         <Introduction />
         <Tagline />
       </div>
-      <div className="bg-secondary-base">
+      <div className="bg-secondary-base pb-56">
         <Experience />
       </div>
     </div>

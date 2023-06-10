@@ -14,6 +14,10 @@ module.exports = {
       'primary-text': '#4c566a',
       'secondary-text': '#365D82',
       'tertiary-text': '#a0a9b8',
+      'red': '#A52A2A',
+    },
+    container: {
+      center: true,
     }
   },
   plugins: [],
