@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image"
 
-export const Experience = () => {
+export const AboutMe = () => {
   return (
     <div className="container mx-auto pt-16 flex flex-col items-center">
       <h3 className="text-center text-secondary-text font-bold text-3xl md:text-6xl">experience.</h3>

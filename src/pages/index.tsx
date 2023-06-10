@@ -1,6 +1,6 @@
 import { Introduction } from "@/app/components/Home/Introduction"
 import { Tagline } from "@/app/components/Home/Tagline"
-import { Experience } from "@/app/components/Home/Experience"
+import { AboutMe } from "@/app/components/Home/AboutMe"
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
         <Tagline />
       </div>
       <div className="bg-secondary-base pb-56">
-        <Experience />
+        <AboutMe />
       </div>
     </div>
   )
