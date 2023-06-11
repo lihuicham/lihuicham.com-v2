@@ -14,7 +14,7 @@ const Contact = () => {
           </div>
           <p className='text-xl font-bold text-primary-text mt-4 lg:text-3xl'>Cham Li Hui</p>
           <p className='font-medium text-primary-text lg:text-xl'>Student, SWE Intern</p>
-          <p className='text-xs text-primary-text mt-2 md:w-3/4 lg:w-2/3 lg:text-base lg:mt-6'>
+          <p className='text-xs text-primary-text mt-2 md:w-3/4 lg:text-base lg:mt-6'>
             Whether you’re looking to collaborate on a cool project or have a 
             freelance job opportunity, you can reach me easily by email or telegram !
           </p>
