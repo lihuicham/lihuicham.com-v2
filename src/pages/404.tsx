@@ -4,12 +4,12 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 
 export default function Custom404() {
-  const [show, setShow] = useState(false)
+  const [show, setShow] = useState(true)
   useEffect(() => {
     setInterval(() => {
       setShow(!show)
-    }, 7000)
-  }, [])
+    }, 6000)
+  }, [show])
   return (
     <div className="container mx-auto max-w-7xl">
       <div className="absolute overflow-hidden flex flex-col items-center py-16 md:flex-row md:py-36 md:relative w-full">
