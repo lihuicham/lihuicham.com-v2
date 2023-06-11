@@ -31,7 +31,7 @@ export const WorkExperiences = () => {
   return (
     <div className="container mx-auto flex flex-col items-center">
       <h5 className="text-center text-primary-text font-semibold text-xl md:text-3xl">Work Experiences</h5>
-      <div className="mt-6 md:mt-16 w-full px-7 md:px-10 flex flex-col gap-5 md:max-w-7xl">
+      <div className="mt-6 md:mt-16 w-full px-7 md:px-10 flex flex-col gap-5 md:gap-8 lg:gap-10 md:max-w-7xl">
         {
           works.map(({ role, company, link, type, period, description }, index) => {
             return (

@@ -25,7 +25,7 @@ export const NavigationBar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/" className="text-5xl text-primary-text md:text-xl" onClick={() => setIsOpen(!isOpen)}>
+            <Link href="/blog" className="text-5xl text-primary-text md:text-xl" onClick={() => setIsOpen(!isOpen)}>
               blog.
             </Link>
           </li>
