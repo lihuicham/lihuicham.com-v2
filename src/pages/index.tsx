@@ -3,6 +3,7 @@ import { Tagline } from "@/app/components/Home/Tagline"
 import { AboutMe } from "@/app/components/Home/AboutMe"
 import { WorkExperiences } from "@/app/components/Home/WorkExperiences"
 import Quote from "@/app/components/Home/Quote"
+import Contact from "@/app/components/Home/Contact"
 
 export default function Home() {
   return (
@@ -17,6 +18,9 @@ export default function Home() {
       </div>
       <div className="pb-56">
         <Quote />
+      </div>
+      <div className="bg-tertiary-base py-56">
+        <Contact />
       </div>
     </div>
   )
