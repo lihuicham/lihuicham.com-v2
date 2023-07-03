@@ -9,6 +9,8 @@ export interface ProjectSectionDetails {
 export interface ProjectData {
   title: string
   description: string
+  link?: string
+  type?: string
 }
 
 export const DataComponent: React.FC<ProjectData> = ({ title, description }) => {
@@ -29,7 +31,7 @@ export const Project = (props: ProjectSectionDetails) => {
         <div>{subtitle}</div>
       </div>
       <div>
-        {data.map((e, index) => <DataComponent {...e} key={index}/>)}
+        {data.map((e, index) => <DataComponent key={index} {...e.attributes}/>)}
       </div>
     </div>
   )
