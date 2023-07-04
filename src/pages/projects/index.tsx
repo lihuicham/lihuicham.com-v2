@@ -1,5 +1,6 @@
 import { Project, ProjectSectionDetails, ProjectData, DataComponent } from "./Project"
 import { gql, useQuery } from "@apollo/client"
+import Custom404 from "../404"
 
 // FIXME : can add a project date field in database and sort graphql based on that
 const GET_PROJECTS = gql`
@@ -21,7 +22,7 @@ query {
 export default function Projects() {
   const { loading, error, data } = useQuery(GET_PROJECTS)
   if (loading) return <p>Loading...</p>
-  if (error) return <p>Error : {error.message}</p>
+  if (error) return <Custom404 />
   console.log(data.projects.data.filter(e => e.attributes.type === 'originals'), 'hi')
   const sectionsArray: ProjectSectionDetails[] = [
     {
@@ -42,7 +43,7 @@ export default function Projects() {
     
   ]
   return (
-    <div className="container mx-auto px-8">
+    <div className="container mx-auto px-8 pb-56">
       <h5 className="text-center text-project-text font-bold text-3xl md:text-5xl my-8 lg:my-10">projects</h5>
       <div className="flex flex-col gap-y-10">
         {
