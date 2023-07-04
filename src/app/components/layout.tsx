@@ -4,6 +4,7 @@ import { Poppins } from 'next/font/google'
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { config } from '@fortawesome/fontawesome-svg-core';
 import { NavigationBar } from './NavigationBar';
+import Footer from './Footer';
 
 config.autoAddCss = false;
 const poppins = Poppins({
@@ -19,7 +20,8 @@ export default function RootLayout({
   return (
     <div className={poppins.className}>
       <NavigationBar />
-      <main>{children}</main>    
+      <main>{children}</main>
+      <Footer />
     </div>
   )
 }
