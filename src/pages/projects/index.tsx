@@ -23,7 +23,6 @@ export default function Projects() {
   const { loading, error, data } = useQuery(GET_PROJECTS)
   if (loading) return <p>Loading...</p>
   if (error) return <Custom404 />
-  console.log(data.projects.data.filter(e => e.attributes.type === 'originals'), 'hi')
   const sectionsArray: ProjectSectionDetails[] = [
     {
       title: 'Current',
