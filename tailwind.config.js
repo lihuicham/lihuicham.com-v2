@@ -11,6 +11,7 @@ module.exports = {
       'primary-base': '#fbfbfc',
       'secondary-base': '#f8f9fb',
       'tertiary-base': '#eceff4',
+      'loading-color': '#e5ebf0',
       'primary-text': '#4c566a',
       'secondary-text': '#365D82',
       'tertiary-text': '#a0a9b8',
