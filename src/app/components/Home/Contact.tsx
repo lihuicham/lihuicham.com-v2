@@ -7,7 +7,7 @@ import Link from 'next/link'
 const Contact = () => {
   return (
     <div className="container mx-auto px-5 md:max-w-7xl">
-      <div className="bg-primary-base px-4 py-10 rounded-md drop-shadow-md md:flex md:px-10 md:w-full ">
+      <div className="bg-primary-base px-4 py-10 rounded-md drop-shadow-md md:flex md:px-12 md:w-full ">
         <div className='md:w-2/3'>
           <div>
             <img alt="me" src="/memoji.png" className="object-contain bg-tertiary-base w-14 h-14 lg:w-16 lg:h-16 rounded-full overflow-hidden"/>

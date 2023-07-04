@@ -13,7 +13,7 @@ export default function Home() {
         <Tagline />
       </div>
       <div className="bg-secondary-base pb-56 space-y-20 md:space-y-24">
-        <AboutMe />
+        {/* <AboutMe /> */}
         <WorkExperiences />
       </div>
       <div className="pb-56">

@@ -1,9 +1,10 @@
 import { Project, ProjectSectionDetails, ProjectData, DataComponent } from "./Project"
 import { gql, useQuery } from "@apollo/client"
 
+// FIXME : can add a project date field in database and sort graphql based on that
 const GET_PROJECTS = gql`
 query {
-  projects {
+  projects (pagination: { limit: 100 }) {
     data {
       id
       attributes {
@@ -41,15 +42,18 @@ export default function Projects() {
     
   ]
   return (
-    <div>
-      {
-        sectionsArray.map((e, index) => (
-          <div key={index}>
-            <Project {...e}/>
-          </div>
-          
-        ))
-      }
+    <div className="container mx-auto px-8">
+      <h5 className="text-center text-project-text font-bold text-3xl md:text-5xl my-8 lg:my-10">projects</h5>
+      <div className="flex flex-col gap-y-10">
+        {
+          sectionsArray.map((e, index) => (
+            <div key={index}>
+              <Project {...e}/>
+            </div>
+            
+          ))
+        }
+      </div>
     </div>
   )
 }
