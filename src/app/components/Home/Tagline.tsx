@@ -4,7 +4,6 @@ export const Tagline = () => {
       <p className="text-center text-tertiary-text font-medium text-lg md:text-3xl md:leading-normal">
         Bridging imagination and functionality with <span className="text-secondary-text">design and code</span>. 
         I also craft intelligent and intuitive experiences with <span className="text-secondary-text">machine learning</span>. 
-        Currently building DApps at Switcheo Labs.
       </p>
     </div>
   )

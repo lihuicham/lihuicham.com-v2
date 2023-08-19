@@ -35,7 +35,7 @@ const Contact = () => {
             <div className='lg:text-xl text-primary-text mt-2 flex flex-col gap-3'>
               <Link href="/" className='hover:opacity-75'>home.</Link>
               <Link href="/" className='hover:opacity-75'>blog.</Link>
-              <Link href="/" className='hover:opacity-75'>projects.</Link>
+              <Link href="/projects" className='hover:opacity-75'>projects.</Link>
               <Link href="/" className='hover:opacity-75'>résumé.</Link>
             </div>
           </div>
