@@ -10,6 +10,7 @@ export interface ProjectSectionDetails {
 }
 
 export interface ProjectData {
+  attributes:ProjectData
   title: string
   description: string
   link?: string

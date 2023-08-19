@@ -2,6 +2,7 @@ import Link from "next/link"
 import { gql, useQuery } from "@apollo/client"
 
 interface Work {
+  attributes:Work
   role: string
   company: string
   link: string
@@ -36,12 +37,13 @@ export const WorkExperiences = () => {
   const { loading, error, data } = useQuery(GET_WORKS)
   if (loading) return <p>Loading...</p>
   if (error) return <p>Failed to load work experiences</p>
+  const df:Work[] = data.experiences.data
   return (
     <div className="container mx-auto flex flex-col items-center">
       <h5 className="text-center text-primary-text font-bold text-3xl md:text-5xl my-8 lg:my-10">experiences</h5>
       <div className="mt-6 md:mt-8 w-full px-7 md:px-10 flex flex-col gap-5 md:gap-8 lg:gap-10 md:max-w-7xl">
         {
-          data.experiences.data.map((e, index) => {
+          df.map((e, index) => {
             return (
               <div className="bg-primary-base px-6 py-4 shadow-md border-l-primary-text border-l-4" key={index}>
                 <div className="lg:flex lg:gap-3 lg:items-center">
