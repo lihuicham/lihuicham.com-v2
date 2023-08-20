@@ -1,4 +1,4 @@
-export const Introduction = () => {
+const Introduction = () => {
   return (
     <div>
       <div className="container mx-auto text-primary-text w-full text-center pt-64">
@@ -9,4 +9,6 @@ export const Introduction = () => {
     </div>
   )
 }
+
+export default Introduction
 

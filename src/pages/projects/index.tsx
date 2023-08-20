@@ -1,5 +1,5 @@
 import { ProjectSectionDetails, projectData } from "../../app/components/constants/projectData"
-import { Project } from "./Project"
+import Project from "./Project"
 
 export default function Projects() {
   const sectionsArray: ProjectSectionDetails[] = [

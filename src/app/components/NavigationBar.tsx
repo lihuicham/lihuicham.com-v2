@@ -3,7 +3,7 @@
 import React, { useState } from 'react'
 import Link from 'next/link';
 
-export const NavigationBar = () => {
+const NavigationBar = () => {
   const [isOpen, setIsOpen] = useState(false) 
   return (
     <div className="sticky top-0 flex justify-between items-center py-5 px-6 md:px-8 lg:px-10 bg-primary-base">
@@ -34,3 +34,5 @@ export const NavigationBar = () => {
     </div>
   )
 }
+
+export default NavigationBar

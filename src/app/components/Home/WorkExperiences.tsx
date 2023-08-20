@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { workData } from "../constants/workData"
 
-export const WorkExperiences = () => {
+const WorkExperiences = () => {
   return (
     <div className="container mx-auto flex flex-col items-center">
       <h5 className="text-center text-primary-text font-bold text-3xl md:text-5xl my-8 lg:my-10">experiences</h5>
@@ -31,3 +31,5 @@ export const WorkExperiences = () => {
     </div>
   )
 }
+
+export default WorkExperiences

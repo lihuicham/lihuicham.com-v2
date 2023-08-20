@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 
-export const AboutMe = () => {
+const AboutMe = () => {
   return (
     <div className="container mx-auto pt-16 flex flex-col items-center md:max-w-7xl">
       <div className="px-7 md:flex md:flex-row-reverse md:items-center md:justify-between md:mt-10">
@@ -26,3 +26,5 @@ export const AboutMe = () => {
     </div>
   )
 } 
+
+export default AboutMe

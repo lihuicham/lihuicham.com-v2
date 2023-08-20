@@ -1,4 +1,4 @@
-export const Tagline = () => {
+const Tagline = () => {
   return (
     <div className="container mx-auto py-36 px-8 text-center md:max-w-6xl">
       <p className="text-center text-tertiary-text font-medium text-lg md:text-3xl md:leading-normal">
@@ -8,3 +8,5 @@ export const Tagline = () => {
     </div>
   )
 }
+
+export default Tagline

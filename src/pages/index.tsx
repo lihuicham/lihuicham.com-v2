@@ -1,10 +1,10 @@
-import { Introduction } from "@/app/components/Home/Introduction"
-import { Tagline } from "@/app/components/Home/Tagline"
-import { AboutMe } from "@/app/components/Home/AboutMe"
-import { WorkExperiences } from "@/app/components/Home/WorkExperiences"
 import Quote from "@/app/components/Home/Quote"
 import Contact from "@/app/components/Home/Contact"
 import Featured from "@/app/components/Home/Featured"
+import Introduction from "@/app/components/Home/Introduction"
+import Tagline from "@/app/components/Home/Tagline"
+import AboutMe from "@/app/components/Home/AboutMe"
+import WorkExperiences from "@/app/components/Home/WorkExperiences"
 
 export default function Home() {
   return (
