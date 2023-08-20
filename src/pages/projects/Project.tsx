@@ -2,20 +2,7 @@ import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
-
-export interface ProjectSectionDetails {
-  title: string
-  subtitle: string
-  data: ProjectData[]
-}
-
-export interface ProjectData {
-  attributes:ProjectData
-  title: string
-  description: string
-  link?: string
-  type: string
-}
+import { ProjectData, ProjectSectionDetails } from "../../app/components/constants/projectData"
 
 export const DataComponent: React.FC<ProjectData> = ({ title, description, link }) => {
   if (link)
@@ -47,7 +34,7 @@ export const Project = (props: ProjectSectionDetails) => {
         <div className="text-xs lg:text-base 2xl:text-lg">{subtitle}</div>
       </div>
       <div className="flex flex-col gap-4">
-        {data.map((e, index) => <DataComponent key={index} {...e.attributes}/>)}
+        {data.map((e, index) => <DataComponent key={index} {...e}/>)}
       </div>
     </div>
   )

@@ -21,7 +21,7 @@ export default function Home() {
         {/* <Quote /> */}
         <Featured />
       </div>
-      <div className="bg-tertiary-base py-20">
+      <div className="bg-tertiary-base py-12">
         <Contact />
       </div>
     </div>
