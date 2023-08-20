@@ -25,7 +25,7 @@ const DataComponent: React.FC<ProjectData> = ({ title, description, link }) => {
   )
 }
 
-export const Project = (props: ProjectSectionDetails) => {
+const Project = (props: ProjectSectionDetails) => {
   const { title, subtitle, data } = props
   return (
     <div>
@@ -39,3 +39,5 @@ export const Project = (props: ProjectSectionDetails) => {
     </div>
   )
 }
+
+export default Project
