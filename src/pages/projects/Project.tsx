@@ -39,3 +39,5 @@ export const Project = (props: ProjectSectionDetails) => {
     </div>
   )
 }
+
+export default Project
