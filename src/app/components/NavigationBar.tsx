@@ -9,7 +9,7 @@ import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 export const NavigationBar = () => {
   const [isOpen, setIsOpen] = useState(false) 
   return (
-    <div className="sticky flex justify-between items-center py-5 px-10 bg-primary-base">
+    <div className="sticky top-0 flex justify-between items-center py-5 px-10 bg-primary-base">
       <Link href="/" className="text-2xl text-primary-text font-semibold">lihuicham</Link>
       <button 
         className="block md:hidden"
@@ -24,10 +24,11 @@ export const NavigationBar = () => {
               home.
             </Link>
           </li>
-          <li>
+          <li className='flex items-center gap-2'>
             <Link href="/blog" className="text-5xl text-primary-text md:text-xl" onClick={() => setIsOpen(!isOpen)}>
               blog.
             </Link>
+            <div className='text-tertiary-text text-xs font-semibold border-2 border-tertiary-text rounded-lg py-1/2 px-1'>Coming Soon</div>
           </li>
           <li>
             <Link href="/projects" className="text-5xl text-primary-text md:text-xl" onClick={() => setIsOpen(!isOpen)}>

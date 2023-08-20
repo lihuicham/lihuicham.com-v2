@@ -12,7 +12,7 @@ export default function Custom404() {
   }, [show])
   return (
     <div className="container mx-auto max-w-7xl">
-      <div className="absolute overflow-hidden flex flex-col items-center py-16 md:flex-row md:py-36 md:relative w-full">
+      <div className="overflow-hidden flex flex-col items-center py-16 md:flex-row md:py-36 md:relative w-full">
         <div className="w-10/12 sm:w-8/12 md:w-5/12 md:absolute md:top-40 md:right-4 lg:top-28 lg:right-16">
           <ArcticOceanFractal pose={show ? "hide" : "show"}/>
         </div>
