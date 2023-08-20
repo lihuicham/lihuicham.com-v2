@@ -34,7 +34,7 @@ const Project = (props: ProjectSectionDetails) => {
         <div className="text-xs lg:text-base 2xl:text-lg">{subtitle}</div>
       </div>
       <div className="flex flex-col gap-4">
-        {data.map((e, index) => <DataComponent key={index} {...e}/>)}
+        {data?.map((e, index) => <DataComponent key={index} {...e}/>)}
       </div>
     </div>
   )
