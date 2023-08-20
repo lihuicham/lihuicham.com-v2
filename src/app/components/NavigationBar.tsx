@@ -2,9 +2,6 @@
 
 import React, { useState } from 'react'
 import Link from 'next/link';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
-
 
 export const NavigationBar = () => {
   const [isOpen, setIsOpen] = useState(false) 

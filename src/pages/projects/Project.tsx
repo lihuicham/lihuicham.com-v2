@@ -4,7 +4,7 @@ import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
 import { ProjectData, ProjectSectionDetails } from "../../app/components/constants/projectData"
 
-export const DataComponent: React.FC<ProjectData> = ({ title, description, link }) => {
+const DataComponent: React.FC<ProjectData> = ({ title, description, link }) => {
   if (link)
   return (
     <Link href={link} target="_blank">
@@ -39,5 +39,3 @@ export const Project = (props: ProjectSectionDetails) => {
     </div>
   )
 }
-
-export default Project
