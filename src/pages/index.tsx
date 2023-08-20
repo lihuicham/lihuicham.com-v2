@@ -14,7 +14,7 @@ export default function Home() {
         <Tagline />
       </div>
       <div className="bg-secondary-base space-y-20 md:space-y-24">
-        {/* <AboutMe /> */}
+        <AboutMe />
         <WorkExperiences />
       </div>
       <div className="">

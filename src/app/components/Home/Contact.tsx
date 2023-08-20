@@ -33,10 +33,12 @@ const Contact = () => {
           <div className='mt-8'>
             <p className='font-semibold text-primary-text lg:text-xl'>Links</p>
             <div className='lg:text-xl text-primary-text mt-2 flex flex-col gap-3'>
-              <Link href="/" className='hover:opacity-75'>home.</Link>
-              <Link href="/" className='hover:opacity-75'>blog.</Link>
+              <div className='flex items-center gap-2'>
+                <Link href="/" className='hover:opacity-75'>blog.</Link>
+                <div className='text-tertiary-text text-xs font-semibold border-2 border-tertiary-text rounded-lg py-1/2 px-1'>Coming Soon</div>
+              </div>
               <Link href="/projects" className='hover:opacity-75'>projects.</Link>
-              <Link href="/" className='hover:opacity-75'>résumé.</Link>
+              <Link href="https://read.cv/lihuicham" className='hover:opacity-75'>résumé.</Link>
             </div>
           </div>
         </div>
