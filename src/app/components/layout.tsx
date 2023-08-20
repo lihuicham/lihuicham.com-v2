@@ -3,8 +3,8 @@ import { Poppins } from 'next/font/google'
 // Fix font-awesome icon too big issue
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { config } from '@fortawesome/fontawesome-svg-core';
-import { NavigationBar } from './NavigationBar';
 import Footer from './Footer';
+import NavigationBar from './NavigationBar';
 
 config.autoAddCss = false;
 const poppins = Poppins({
