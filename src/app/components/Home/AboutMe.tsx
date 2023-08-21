@@ -19,7 +19,7 @@ const AboutMe = () => {
             Born in Malaysia, now residing in Singapore. Driven and competitive, I strive to be a T-shaped person. 
             Last summer, I honed my skills in design and development through self-initiated projects, which led to a software engineer internship opportunity. 
             This year, I am diving deep into the realms of data science, focusing in deep learning and its<span className="font-bold"> applications in NLP</span>. 
-            I am currently taking the Deep Learning Specialisation course by Andrew Ng and Google Profressional ML Certification, hit me up for study-together sessions or coffee !
+            I am currently taking the Deep Learning Specialisation by Andrew Ng and Google Profressional ML Engineer Certification, hit me up for study-together sessions or coffee !
           </p>
         </div>
       </div>
