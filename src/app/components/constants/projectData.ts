@@ -64,7 +64,7 @@ export const projectData: ProjectData[] = [
   {
     title: 'Fluo Finance',
     description: 'Building a DeFi App for my SWE internship. Integration with smart contracts and blockchain protocols.',
-    link: 'https://fluofinance.com/',
+    link: 'https://dev-app.dem.exchange/fluo-dashboard',
     type: 'current'
   },
   // experiments

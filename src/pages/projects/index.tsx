@@ -22,7 +22,7 @@ export default function Projects() {
   ]
   return (
     <div className="container mx-auto px-8 pb-56">
-      <h5 className="text-center text-project-text font-bold text-3xl md:text-5xl my-8 lg:my-10">projects</h5>
+      <h5 className="text-center text-project-text font-bold text-3xl md:text-5xl my-8 lg:my-10">projects.</h5>
       <div className="flex flex-col gap-y-10">
         {
           sectionsArray.map((e, index) => (

@@ -7,7 +7,7 @@ import { featuredData } from "../constants/featuredData"
 const Featured = () => {
   return (
     <div className="container mx-auto flex flex-col items-center">
-      <h5 className="text-center text-primary-text font-bold text-3xl md:text-5xl my-8 lg:my-10">featured</h5>
+      <h5 className="text-center text-primary-text font-bold text-3xl md:text-5xl my-8 lg:my-10">featured.</h5>
       <div className="grid grid-cols-1 gap-6 lg:gap-8 px-7 mt-6 md:mt-8 w-full md:max-w-7xl lg:grid-cols-2">
         {
           featuredData.map((e, index) => {

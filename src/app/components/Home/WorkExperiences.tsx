@@ -4,7 +4,7 @@ import { workData } from "../constants/workData"
 const WorkExperiences = () => {
   return (
     <div className="container mx-auto flex flex-col items-center">
-      <h5 className="text-center text-primary-text font-bold text-3xl md:text-5xl my-8 lg:my-10">experiences</h5>
+      <h5 className="text-center text-primary-text font-bold text-3xl md:text-5xl my-8 lg:my-10">experiences.</h5>
       <div className="mt-6 md:mt-8 w-full px-7 md:px-10 flex flex-col gap-5 md:gap-8 lg:gap-10 md:max-w-7xl">
         {
           workData.map((e, index) => {
