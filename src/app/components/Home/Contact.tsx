@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="bg-primary-base px-4 py-10 rounded-md drop-shadow-md md:flex md:px-12 md:w-full ">
         <div className='md:w-2/3'>
           <div>
-            <img alt="me" src="/memoji.png" className="object-contain bg-tertiary-base w-14 h-14 lg:w-16 lg:h-16 rounded-full overflow-hidden"/>
+            <img alt="memoji" src="/assets/memoji.png" className="object-contain bg-tertiary-base w-14 h-14 lg:w-16 lg:h-16 rounded-full overflow-hidden"/>
           </div>
           <p className='text-xl font-bold text-primary-text mt-4 lg:text-3xl'>Cham Li Hui</p>
           <p className='font-medium text-primary-text lg:text-xl'>Student, SWE Intern</p>
