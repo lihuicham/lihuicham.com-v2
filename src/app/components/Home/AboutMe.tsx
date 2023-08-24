@@ -5,7 +5,7 @@ const AboutMe = () => {
     <div className="container mx-auto pt-16 flex flex-col items-center md:max-w-7xl">
       <div className="px-7 md:flex md:flex-row-reverse md:items-center md:justify-between md:mt-10">
         <div className="flex justify-center items-center mt-10 md:m-0">
-          <img alt="me" src="/me.png" className="object-cover w-48 h-48 md:w-52 md:h-52 lg:w-72 lg:h-72 rounded-2xl overflow-hidden"/>
+          <img alt="me" src="/assets/me.png" className="object-cover w-48 h-48 md:w-52 md:h-52 lg:w-72 lg:h-72 rounded-2xl overflow-hidden"/>
         </div>
         <div className="mt-4 md:m-0 md:w-3/4 md:mr-6">
           <div className="flex items-center">
