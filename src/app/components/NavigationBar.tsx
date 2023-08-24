@@ -28,7 +28,7 @@ const NavigationBar = () => {
           </li>
         </ul>
       </div>
-      <a download="" href="/assets/Resume.pdf" target="_blank" className="text-primary-base bg-primary-text py-1 px-2 lg:py-2 lg:px-4 rounded-lg md:text-xl hover:bg-transparent hover:text-primary-text hover:ring-4 hover:ring-primary-text hover:ring-inset duration-500">
+      <a download="" href="/assets/Cham_Li_Hui_Resume.pdf" target="_blank" className="text-primary-base bg-primary-text py-1 px-2 lg:py-2 lg:px-4 rounded-lg md:text-xl hover:bg-transparent hover:text-primary-text hover:ring-4 hover:ring-primary-text hover:ring-inset duration-500">
         résumé.
       </a>
     </div>
