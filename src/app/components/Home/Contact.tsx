@@ -38,7 +38,7 @@ const Contact = () => {
                 <div className='text-tertiary-text text-xs font-semibold border-2 border-tertiary-text rounded-lg py-1/2 px-1'>Coming Soon</div>
               </div>
               <Link href="/projects" className='hover:opacity-75'>projects.</Link>
-              <Link download="" href="/assets/Cham_Li_Hui_Resume.pdf.pdf" className='hover:opacity-75'>résumé.</Link>
+              <Link download="" href="/assets/ChamLiHui-Resume-September2023.pdf" className='hover:opacity-75'>résumé.</Link>
             </div>
           </div>
         </div>
