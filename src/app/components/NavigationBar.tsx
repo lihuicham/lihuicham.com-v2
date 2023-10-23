@@ -28,9 +28,9 @@ const NavigationBar = () => {
           </li>
         </ul>
       </div>
-      <a download="" href="/assets/ChamLiHui-Resume-September2023.pdf" target="_blank" className="text-primary-base bg-primary-text py-1 px-2 lg:py-2 lg:px-4 rounded-lg md:text-xl hover:bg-transparent hover:text-primary-text hover:ring-4 hover:ring-primary-text hover:ring-inset duration-500">
+      <Link download="" href="/assets/ChamLiHui-Resume.pdf" className="text-primary-base bg-primary-text py-1 px-2 lg:py-2 lg:px-4 rounded-lg md:text-xl hover:bg-transparent hover:text-primary-text hover:ring-4 hover:ring-primary-text hover:ring-inset duration-500">
         résumé.
-      </a>
+      </Link>
     </div>
   )
 }
