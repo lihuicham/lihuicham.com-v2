@@ -10,12 +10,21 @@ export interface Work {
 
 export const workData: Work[] = [
   {
+    role: 'Data Analyst Intern',
+    company: 'Switcheo Labs',
+    type: 'Internship',
+    from: 'Dec 2023',
+    to: 'Now',
+    description: 'Gaining insights on NUS Computing social media performance using platform analytics tools such as Google Analytics and Meta Business Suite. Analyse and visualise data using Python, Excel and Power BI.',
+    link: 'https://www.switcheo.com',
+  },
+  {
     role: 'Software Engineer Intern',
     company: 'Switcheo Labs',
     type: 'Internship',
     from: 'May 2023',
-    to: 'Now',
-    description: 'Joined a team of developers in building Fluo, a Web 3 decentralised market maker. Implemented reusable UI components such as payment forms and dashboards with smart contracts integration. Currently working on Demex and other De-Fi applications. Tech stack : React, Typescript, MUI.',
+    to: 'Oct 2023',
+    description: 'Joined a team of developers in building Fluo, a Web 3 decentralised market maker. Implemented reusable UI components such as payment forms and dashboards with smart contracts integration. Worked on Demex and other De-Fi applications. Tech stack : React, Typescript, MUI.',
     link: 'https://www.switcheo.com',
   },
   {
