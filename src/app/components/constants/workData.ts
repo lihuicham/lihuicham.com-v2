@@ -11,7 +11,7 @@ export interface Work {
 export const workData: Work[] = [
   {
     role: 'Data Analyst Intern',
-    company: 'Switcheo Labs',
+    company: 'NUS Computing',
     type: 'Internship',
     from: 'Dec 2023',
     to: 'Now',
