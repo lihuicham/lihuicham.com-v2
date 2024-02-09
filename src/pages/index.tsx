@@ -5,11 +5,13 @@ import Introduction from "@/app/components/Home/Introduction"
 import Tagline from "@/app/components/Home/Tagline"
 import AboutMe from "@/app/components/Home/AboutMe"
 import WorkExperiences from "@/app/components/Home/WorkExperiences"
+import HeadlineV3 from "@/app/components/v3/HeadlineV3"
 
 export default function Home() {
   return (
     <div className="bg-primary-base space-y-32 md:space-y-52">
       <div className="space-y-48 md:space-y-56">
+        <HeadlineV3 />
         <Introduction />
         <Tagline />
       </div>

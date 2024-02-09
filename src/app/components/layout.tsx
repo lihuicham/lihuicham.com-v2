@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <div className={poppins.className}>
-      <NavigationBar />
+      {/* <NavigationBar /> */}
       <main>{children}</main>
       <Footer />
     </div>
