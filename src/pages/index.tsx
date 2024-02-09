@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="bg-primary-base space-y-32 md:space-y-52">
       <div className="space-y-48 md:space-y-56">
-        {/* <HeadlineV3 /> */}
+        <HeadlineV3 />
         <Introduction />
         <Tagline />
       </div>

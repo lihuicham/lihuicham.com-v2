@@ -6,7 +6,7 @@ import { PageLinks } from "../constants/PageLinks"
 const HeadlineV3 = () => {
   return (
     <div>
-      <div className="container mx-auto text-primary-text w-1/2 pt-20 grid md:gap-y-6">
+      <div className="container mx-auto text-primary-text w-1/2 pt-32 grid md:gap-y-6">
         <div className="drop-shadow">
           <img alt="memoji" src="/assets/me.png" className="object-fit bg-tertiary-base w-14 h-14 lg:w-24 lg:h-24 rounded-full overflow-hidden mb-4"/>
         </div>
@@ -21,6 +21,7 @@ const HeadlineV3 = () => {
           <span className="text-switcheolabs-green font-normal underline underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Companies.SwitcheoLabs} target="_blank">Switcheo Labs</Link></span>
           &nbsp;building apps and analysing data. 
           She is also an exchange student at the&nbsp;
+          <br/>
           <span className="text-unc-blue font-normal underline underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Schools.UNC}>University of North Carolina at Chapel Hill</Link></span>. 
         </p>
         <div className="flex gap-4 md:gap-6 md:mt-6">
