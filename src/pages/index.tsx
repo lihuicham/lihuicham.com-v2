@@ -13,21 +13,21 @@ export default function Home() {
   return (
     <div className="bg-primary-base md:space-y-24">
       <div className="space-y-48 md:space-y-56">
-        {/* <HeadlineV3 /> */}
-        <Introduction />
-        <Tagline />
+        <HeadlineV3 />
+        {/* <Introduction />
+        <Tagline /> */}
       </div>
-      <div className="bg-secondary-base space-y-20 md:space-y-24">
+      {/* <div className="bg-secondary-base space-y-20 md:space-y-24">
         <AboutMe />
         <WorkExperiences />
-      </div>
-      {/* <div className="bg-primary-base space-y-20 md:space-y-24">
+      </div> */}
+      <div className="bg-primary-base space-y-20 md:space-y-24">
         <WorkV3 />
         <ProjectV3 />
-      </div> */}
+      </div>
       <div className="">
         {/* <Quote /> */}
-        <Featured />
+        {/* <Featured /> */}
       </div>
       <div className="bg-tertiary-base py-12">
         <Contact />

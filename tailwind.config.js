@@ -11,7 +11,7 @@ module.exports = {
     },
     colors: {
       'transparent': 'transparent',
-      'primary-base': '#fbfbfc',
+      'primary-base': '#fff',
       'secondary-base': '#f8f9fb',
       'tertiary-base': '#eceff4',
       'loading-color': '#e5ebf0',
@@ -38,6 +38,9 @@ module.exports = {
       textUnderlineOffset: {
         6: '6px',
       },
+    },
+    variants: {
+      backgroundColor: ['responsive', 'hover', 'focus', 'active', 'group-hover']
     }
   },
   plugins: [],

@@ -22,7 +22,7 @@ const HeadlineV3 = () => {
           <span className="text-switcheolabs-green font-normal underline underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Companies.SwitcheoLabs} target="_blank">Switcheo Labs</Link></span>
           &nbsp;building apps and analysing data. 
           She is now an exchange student at the&nbsp;
-          <span className="text-unc-blue font-normal underline underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Schools.UNC}>University of North Carolina at Chapel Hill</Link></span>. 
+          <span className="text-unc-blue font-normal underline underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Schools.UNC} target="_blank">University of North Carolina at Chapel Hill</Link></span>. 
         </p>
         <div className="flex gap-4 md:gap-6 md:mt-6">
           <Link target="_blank" href={PageLinks.Socials.LinkedIn}>
