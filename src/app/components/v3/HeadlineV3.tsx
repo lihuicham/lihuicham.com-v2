@@ -27,27 +27,27 @@ const HeadlineV3 = () => {
         <div className="flex gap-4 md:gap-6 md:mt-6">
           <Link target="_blank" href={PageLinks.Socials.LinkedIn}>
             <div className="rounded-full flex items-center justify-center border border-linkedinblue w-14 h-14 hover:bg-linkedinblue/20 transition-all duration-300 ease-in-out">
-              <img alt="linkedin" src="/assets/logos/linkedin-logo.svg" className="w-10 h-10"/>
+              <img alt="linkedin" src="/assets/logos/socials/linkedin-logo.svg" className="w-10 h-10"/>
             </div>
           </Link>
           <Link target="_blank" href={PageLinks.Socials.GitHub}>
             <div className="rounded-full flex items-center justify-center border border-githubmediumgray w-14 h-14 hover:bg-githubmediumgray/20 transition-all duration-300 ease-in-out">
-              <img alt="github" src="/assets/logos/github-logo.svg" className="w-8 h-8"/>
+              <img alt="github" src="/assets/logos/socials/github-logo.svg" className="w-8 h-8"/>
             </div>
           </Link>
           <Link target="_blank" href={PageLinks.Socials.Medium}>
             <div className="rounded-full flex items-center justify-center border border-githubmediumgray w-14 h-14 hover:bg-githubmediumgray/20 transition-all duration-300 ease-in-out">
-              <img alt="medium" src="/assets/logos/medium-logo.svg" className="w-8 h-8"/>
+              <img alt="medium" src="/assets/logos/socials/medium-logo.svg" className="w-8 h-8"/>
             </div>
           </Link>
           <Link target="_blank" href={PageLinks.Socials.Email}>
             <div className="rounded-full flex items-center justify-center border border-gmailred w-14 h-14 hover:bg-gmailred/20 transition-all duration-300 ease-in-out">
-              <img alt="email" src="/assets/logos/gmail-logo.svg" className="w-8 h-8"/>
+              <img alt="email" src="/assets/logos/socials/gmail-logo.svg" className="w-8 h-8"/>
             </div>
           </Link>
           <Link target="_blank" href={PageLinks.Socials.Telegram}>
             <div className="rounded-full flex items-center justify-center border border-linkedinblue w-14 h-14 hover:bg-linkedinblue/20 transition-all duration-300 ease-in-out">
-              <img alt="telegram" src="/assets/logos/telegram-logo.svg" className="w-8 h-8"/>
+              <img alt="telegram" src="/assets/logos/socials/telegram-logo.svg" className="w-8 h-8"/>
             </div>
           </Link>
         </div>

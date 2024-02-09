@@ -19,6 +19,7 @@ module.exports = {
       'secondary-text': '#365D82',
       'tertiary-text': '#a0a9b8',
       'project-text': '#3b4252',
+      'gray-text': '#6b6b6b',
       'red': '#A52A2A',
       'nus-orange': '#EF7C00',
       'unc-blue': '#7BAFD4',
