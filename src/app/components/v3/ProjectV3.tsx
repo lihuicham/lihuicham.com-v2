@@ -19,6 +19,7 @@ const ProjectV3 = () => {
     <div>
       <div className="container mx-auto text-primary-text w-1/2 grid md:gap-y-6">
         <h3 className="md:text-2xl font-medium">Projects</h3>
+        <p className='font-light'>This section is work in progres 🚧</p>
         <div className="font-light grid grid-cols-2 gap-4">
           {
             projectDataV3.map((e, index) => {
