@@ -2,6 +2,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { workDataV3 } from '../constants/workDataV3'
+import { PageLinks } from '../constants/PageLinks'
 
 const WorkV3 = () => {
   return (
@@ -29,6 +30,17 @@ const WorkV3 = () => {
               )
             })
           }
+        </div>
+        <div className="flex items-center gap-x-2.5 mt-6">
+          <div className="relative flex h-2.5 w-2.5">
+            <div className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green opacity-75"></div>
+            <div className="relative inline-flex rounded-full h-2.5 w-2.5 bg-green"></div>
+          </div>
+          <div className='text-sm text-gray-text font-light'>Actively looking for Summer 2024 internships.&nbsp;
+            <Link target="_blank" href={PageLinks.Socials.Email}>
+              <span className="underline underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out">Get in touch</span>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

@@ -15,13 +15,13 @@ const HeadlineV3 = () => {
           She&#39;s is a junior at&nbsp;
           <span className="text-nus-orange font-normal underline underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Schools.NUS} target="_blank">National University of Singapore</Link></span>, 
           majoring in Business Analytics. 
+          <br />
           Li Hui has internship experiences at&nbsp;
           <span className="text-thestraitstimes-blue font-normal underline underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Companies.TheStraitsTimes} target="_blank">The Straits Times</Link></span>
           &nbsp;and&nbsp;
           <span className="text-switcheolabs-green font-normal underline underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Companies.SwitcheoLabs} target="_blank">Switcheo Labs</Link></span>
           &nbsp;building apps and analysing data. 
-          She is also an exchange student at the&nbsp;
-          <br/>
+          She is now an exchange student at the&nbsp;
           <span className="text-unc-blue font-normal underline underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Schools.UNC}>University of North Carolina at Chapel Hill</Link></span>. 
         </p>
         <div className="flex gap-4 md:gap-6 md:mt-6">

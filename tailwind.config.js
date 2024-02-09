@@ -21,6 +21,7 @@ module.exports = {
       'project-text': '#3b4252',
       'gray-text': '#6b6b6b',
       'red': '#A52A2A',
+      'green': '#77DB89',
       'nus-orange': '#EF7C00',
       'unc-blue': '#7BAFD4',
       'thestraitstimes-blue': '#142951',
