@@ -12,28 +12,11 @@ import AwardV3 from "@/app/components/v3/AwardsV3"
 
 export default function Home() {
   return (
-    <div className="bg-primary-base md:space-y-24">
-      <div className="space-y-48 md:space-y-56">
-        <HeadlineV3 />
-        {/* <Introduction />
-        <Tagline /> */}
-      </div>
-      {/* <div className="bg-secondary-base space-y-20 md:space-y-24">
-        <AboutMe />
-        <WorkExperiences />
-      </div> */}
-      <div className="bg-primary-base space-y-20 md:space-y-28">
-        <WorkV3 />
-        <AwardV3 />
-        <ProjectV3 />
-      </div>
-      <div className="">
-        {/* <Quote /> */}
-        {/* <Featured /> */}
-      </div>
-      {/* <div className="bg-tertiary-base py-12">
-        <Contact />
-      </div> */}
+    <div className="bg-primary-base flex flex-col space-y-8 md:space-y-20">
+      <HeadlineV3 />
+      <WorkV3 />
+      <AwardV3 />
+      <ProjectV3 />
     </div>
   )
 }

@@ -18,7 +18,7 @@ export const projectDataV3 = {
   },
   populationhealth:{
     title: 'Population Health Programme',
-    description: 'Visualising Singapore\'s public health data with Tableau.',
+    description: 'Visualising Singapore\'s public health data.',
     link: 'https://drive.google.com/file/d/1vyhNeBhmO-tWPZh08vhZ4Wk0K2Io8BEL/view?usp=drive_link',
     type: 'SWE',
     logo:'/assets/logos/projects/populationhealth.png',

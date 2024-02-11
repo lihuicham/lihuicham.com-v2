@@ -10,7 +10,7 @@ export const PageLinks = {
     
   },
   Socials: {
-    LinkedIn: 'https://www.linkedin.com/in/lihui/',
+    LinkedIn: 'https://www.linkedin.com/in/lihuicham/',
     GitHub: 'https://github.com/lihuicham',
     Medium: 'https://medium.com/@lihuicham',
     Email: 'mailto:lihuicham.work@gmail.com',

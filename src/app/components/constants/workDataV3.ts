@@ -24,7 +24,7 @@ export const workDataV3: WorkV3[] = [
   {
     role: 'Residential Assistant',
     company: 'Residential College 4 (NUS)',
-    date: 'June 2023 - Dec 2023',
+    date: 'Jun 2023 - Dec 2023',
     link: 'https://rc4.nus.edu.sg',
     logo: '/assets/logos/companies/rc4-logo.png',
   },
