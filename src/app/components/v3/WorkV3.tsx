@@ -23,7 +23,7 @@ const WorkV3 = () => {
                       <div className="text-gray-text">{e.role}</div>
                     </div>
                   </div>
-                  <div className="pr-1">
+                  <div className="pr-1 text-sm">
                     <div>{e.date}</div>
                   </div>
                 </div>

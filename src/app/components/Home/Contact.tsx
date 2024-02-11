@@ -33,11 +33,11 @@ const Contact = () => {
           <div className='mt-8'>
             <p className='font-semibold text-primary-text lg:text-xl'>Links</p>
             <div className='lg:text-xl text-primary-text mt-2 flex flex-col gap-3'>
-              <div className='flex items-center gap-2'>
+              {/* <div className='flex items-center gap-2'>
                 <Link href="/blog" className='hover:opacity-75'>blog.</Link>
                 <div className='text-tertiary-text text-xs font-semibold border-2 border-tertiary-text rounded-lg py-1/2 px-1'>Coming Soon</div>
-              </div>
-              <Link href="/projects" className='hover:opacity-75'>projects.</Link>
+              </div> */}
+              {/* <Link href="/projects" className='hover:opacity-75'>projects.</Link> */}
               <Link download="" href="/assets/ChamLiHui-Resume.pdf" className='hover:opacity-75'>résumé.</Link>
             </div>
           </div>

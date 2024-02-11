@@ -1,61 +1,62 @@
 import { colorVariants } from "../v3/ProjectV3"
-
+// icon from Freepik Special Flat
 export interface Project {
   title: string
   description: string
-  link?: string
+  link: string
   type: string
-  color: keyof typeof colorVariants
+  logo: string
 } 
 
-export const projectDataV3: Project[] = [
-  {
+export const projectDataV3 = {
+  creditcard: {
     title: 'Credit Card Default Prediction',
     description: 'EDA and quantitative model evaluation.',
     link: 'https://github.com/lihuicham/default-credit-card-clients-prediction/blob/main/ProjectCode-Python.ipynb',
     type: 'Machine Learning',
-    color: 'orange',
+    logo: '/assets/logos/projects/creditcard.png',
   },
-  {
-    title: 'Standup Comedy Analysis with NLP',
-    description: 'How funny are the comedians ?',
-    link: '',
-    type: 'Machine Learning',
-    color: 'red',
-  },
-  {
-    title: 'Brand Style Guide',
-    description: 'My personal brand identity.',
-    link: '',
-    type: 'Design',
-    color: 'purple',
-  },
-  {
-    title: 'Fluo App',
-    description: 'Stake, boost and claim rewards now.',
-    link: '',
-    type: 'SWE',
-    color: 'yellow',
-  },
-  {
-    title: 'Traventure App',
-    description: 'Agile tech product management.',
-    link: '',
-    type: 'PM',
-    color: 'green',
-  },
-  {
-    title: 'Landslide in Malaysia',
-    description: 'Breaking news reporting and data storytelling.',
-    link: '',
-    type: 'SWE',
-    color: 'gray',
-  },
-  {
+  populationhealth:{
     title: 'Population Health Programme',
     description: 'Visualising Singapore\'s public health data with Tableau.',
-    link: '',
+    link: 'https://drive.google.com/file/d/1vyhNeBhmO-tWPZh08vhZ4Wk0K2Io8BEL/view?usp=drive_link',
     type: 'SWE',
-    color: 'blue',
+    logo:'/assets/logos/projects/populationhealth.png',
   },
-]
+  standupcomedy:{
+    title: 'Standup Comedy Analysis with NLP',
+    description: 'How funny are the comedians ?',
+    link: 'https://github.com/lihuicham/standup-comedy-analysis',
+    type: 'Machine Learning',
+    logo: '/assets/logos/projects/standupcomedy.png',
+  },
+  brandstyleguide:{
+    title: 'Brand Style Guide',
+    description: 'My personal brand identity.',
+    link: 'https://drive.google.com/file/d/1Agx606I5Ht1OFVD_eWN3NNNJeorh-J_C/view?usp=drive_link',
+    type: 'Design',
+    logo: '/assets/logos/projects/brandstyleguide.png',
+  },
+  fluo:{
+    title: 'Perp Pool by Fluo (Demex App)',
+    description: 'Stake, boost and claim rewards now.',
+    link: 'https://app.dem.exchange/pools',
+    type: 'SWE',
+    logo: '/assets/logos/projects/fluo.png',
+  },
+ traventure:{
+    title: 'Traventure App',
+    description: 'Agile tech product management.',
+    link: 'https://docs.google.com/spreadsheets/d/1yGKUngdP5fGHOQmZWxFVd2KDVAtkpxnG/edit?usp=sharing&ouid=104164752399865493343&rtpof=true&sd=true',
+    type: 'PM',
+    logo: '/assets/logos/projects/traventure.png',
+  },
+  landslide:{
+    title: 'Landslide in Malaysia',
+    description: 'Breaking news reporting and data storytelling.',
+    link: 'https://www.straitstimes.com/multimedia/graphics/2022/12/malaysia-genting-landslide/index.html?shell',
+    type: 'SWE',
+    logo: '/assets/logos/projects/landslide.png',
+  },
+
+}

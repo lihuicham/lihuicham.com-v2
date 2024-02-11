@@ -21,7 +21,7 @@ export default function Home() {
         <AboutMe />
         <WorkExperiences />
       </div> */}
-      <div className="bg-primary-base space-y-20 md:space-y-24">
+      <div className="bg-primary-base space-y-20 md:space-y-28">
         <WorkV3 />
         <ProjectV3 />
       </div>
@@ -29,9 +29,9 @@ export default function Home() {
         {/* <Quote /> */}
         {/* <Featured /> */}
       </div>
-      <div className="bg-tertiary-base py-12">
+      {/* <div className="bg-tertiary-base py-12">
         <Contact />
-      </div>
+      </div> */}
     </div>
   )
 }
