@@ -16,9 +16,9 @@ export const colorVariants = {
 const ProjectV3 = () => {
   return (
     <div>
-      <div className="container mx-auto text-primary-text w-1/2 grid md:gap-y-6">
+      <div className="container mx-auto text-primary-text w-1/2 grid md:gap-y-10">
         <h3 className="md:text-2xl font-medium">Projects</h3>
-        <p className='font-light md:-mt-5'>A collection of my proudest projects.</p>
+        <p className='font-light md:-mt-8'>A collection of some recent projects.</p>
         <div className="font-light grid grid-cols-2 gap-8">
           <Link href={projectDataV3.creditcard.link} target='_blank'>
             <div className={`rounded-3xl px-10 py-12 flex flex-col justify-center items-center text-center hover:bg-[#fae3aa]/20 hover:text-[#bd5c0d] transition-all duration-300 ease-in-out`} 
