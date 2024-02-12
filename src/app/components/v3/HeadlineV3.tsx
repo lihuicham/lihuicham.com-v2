@@ -12,7 +12,7 @@ const HeadlineV3 = () => {
         </div>
         <h2 className="text-xl md:text-3xl font-medium md:text-4xl">Hey, I am Li Hui</h2>
         <p className="text-primary-text font-light text-sm md:text-lg md:leading-loose">
-          I am a junior at&nbsp;
+          I am a junior/penultimate Computing student at&nbsp;
           <span className="text-nus-orange font-normal underline underline-offset-2 md:underline-offset-4 hover:underline-offset-4 transition-all duration-300 ease-in-out"><Link href={PageLinks.Schools.NUS} target="_blank">National University of Singapore</Link></span>, 
           majoring in Business Analytics. 
           <br />
