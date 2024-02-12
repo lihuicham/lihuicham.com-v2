@@ -52,8 +52,8 @@ export const projectDataV3 = {
     logo: '/assets/logos/projects/traventure.png',
   },
   landslide:{
-    title: 'Landslide in Malaysia',
-    description: 'Breaking news reporting and data storytelling.',
+    title: 'Breaking : Landslide in Malaysia',
+    description: 'News reporting and data storytelling.',
     link: 'https://www.straitstimes.com/multimedia/graphics/2022/12/malaysia-genting-landslide/index.html?shell',
     type: 'SWE',
     logo: '/assets/logos/projects/landslide.png',
