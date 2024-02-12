@@ -9,6 +9,10 @@ export const PageLinks = {
     NUSComputing: 'https://www.comp.nus.edu.sg/',
     
   },
+  Recents: {
+    SwinTransformer: 'https://docs.google.com/presentation/d/1qj7UbCLtAQGRbAGVwf-0YOB0SIZzk99e_qzIxph_w60/edit?usp=sharing',
+    Friendzyme: 'https://www.figma.com/file/oRZQUrJLw8K8D37Jgm9DvX/Li-Hui-Cham-Working-File?type=design&node-id=0%3A1&mode=design&t=AK479uYOH8atIu58-1',
+  },
   Socials: {
     LinkedIn: 'https://www.linkedin.com/in/lihuicham/',
     GitHub: 'https://github.com/lihuicham',

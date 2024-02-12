@@ -6,7 +6,7 @@ import { PageLinks } from "../constants/PageLinks"
 const HeadlineV3 = () => {
   return (
     <div>
-      <div className="container mx-auto text-primary-text grid w-10/12 pt-20 gap-y-4 md:w-1/2 md:pt-32 md:gap-y-6">
+      <div className="container mx-auto text-primary-text grid w-10/12 pt-20 gap-y-4 md:w-1/2 md:pt-14 md:gap-y-6">
         <div className="drop-shadow">
           <img alt="memoji" src="/assets/me.png" className="object-fit bg-tertiary-base w-20 h-20 lg:w-24 lg:h-24 rounded-full overflow-hidden mb-2 md:mb-4"/>
         </div>
@@ -22,17 +22,34 @@ const HeadlineV3 = () => {
         </div>
         <p className="text-primary-text font-light text-sm md:text-lg md:leading-loose">
           I am a junior/penultimate Computing student at&nbsp;
-          <span className="text-nus-orange font-normal underline underline-offset-2 md:underline-offset-4 hover:underline-offset-4 transition-all duration-300 ease-in-out"><Link href={PageLinks.Schools.NUS} target="_blank">National University of Singapore</Link></span>, 
+          <span className="text-nus-orange font-normal underline underline-offset-2 md:underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Schools.NUS} target="_blank">National University of Singapore</Link></span>, 
           majoring in Business Analytics. 
           <br />
           I have internship experiences at&nbsp;
-          <span className="text-thestraitstimes-blue font-normal underline underline-offset-2 md:underline-offset-4 hover:underline-offset-4 transition-all duration-300 ease-in-out"><Link href={PageLinks.Companies.TheStraitsTimes} target="_blank">The Straits Times</Link></span>
+          <span className="text-thestraitstimes-blue font-normal underline underline-offset-2 md:underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Companies.TheStraitsTimes} target="_blank">The Straits Times</Link></span>
           &nbsp;and&nbsp;
-          <span className="text-switcheolabs-green font-normal underline underline-offset-2 md:underline-offset-4 hover:underline-offset-4 transition-all duration-300 ease-in-out"><Link href={PageLinks.Companies.SwitcheoLabs} target="_blank">Switcheo Labs</Link></span>
+          <span className="text-switcheolabs-green font-normal underline underline-offset-2 md:underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Companies.SwitcheoLabs} target="_blank">Switcheo Labs</Link></span>
           &nbsp;building apps and analysing data. 
           This spring, I am on a student exchange programme at the&nbsp;
-          <span className="text-unc-blue font-normal underline underline-offset-2 md:underline-offset-4 hover:underline-offset-4 transition-all duration-300 ease-in-out"><Link href={PageLinks.Schools.UNC} target="_blank">University of North Carolina at Chapel Hill</Link></span>. 
+          <span className="text-unc-blue font-normal underline underline-offset-2 md:underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Schools.UNC} target="_blank">University of North Carolina at Chapel Hill</Link></span>. 
         </p>
+        <div>
+          <h3 className="md:text-lg font-medium">Recent Updates</h3>
+          <ul className="text-sm md:text-lg font-light">
+            <li>
+              - Learning Vision Transformers through paper critiques and&nbsp;
+              <span className="underline underline-offset-2 md:underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Recents.SwinTransformer} target="_blank">presentations</Link></span>.
+            </li>
+            <li>
+              - Designing a social gathering planning app,&nbsp;
+              <span className="text-[#DD6E5E] underline underline-offset-2 md:underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Recents.Friendzyme} target="_blank">Friendzyme</Link></span>
+              &nbsp;with Figma.
+            </li>
+            <li>
+              - Planning a trip to the West Coast for spring break.
+            </li>
+          </ul>
+        </div>
         <div className="flex gap-4 md:gap-6 mt-4 md:mt-6">
           <Link target="_blank" href={PageLinks.Socials.LinkedIn}>
             <div className="rounded-full flex items-center justify-center border border-linkedinblue w-8 h-8 md:w-14 md:h-14 hover:bg-linkedinblue/20 transition-all duration-300 ease-in-out">
