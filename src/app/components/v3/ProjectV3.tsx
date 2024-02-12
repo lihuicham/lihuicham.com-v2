@@ -32,12 +32,12 @@ const ProjectV3 = () => {
                 </div>
                 <div className="flex flex-col gap-y-1">
                   <div className="text-sm md:text-base font-medium">{projectDataV3.creditcard.title}</div>
-                  <p className="text-sm md:text-base text-gray-text">{projectDataV3.creditcard.description}</p>
+                  <p className="text-sm md:text-base">{projectDataV3.creditcard.description}</p>
                 </div>
             </div>
           </Link>
           <Link href={projectDataV3.populationhealth.link} target='_blank'>
-            <div className={`rounded-2xl md:rounded-3xl py-8 md:px-10 md:py-12 flex flex-col justify-center items-center text-center hover:bg-[#fae3aa]/20 hover:text-[#bd5c0d] transition-all duration-300 ease-in-out`} 
+            <div className={`rounded-2xl md:rounded-3xl py-8 md:px-10 md:py-12 flex flex-col justify-center items-center text-center hover:bg-[#e3f8ff]/20 hover:text-[#084887] transition-all duration-300 ease-in-out`} 
                   style={{ border: 'solid 1px #dedede' }} 
             >
                 <div className="rounded-full flex items-center justify-center w-12 h-12 mb-4 md:w-20 md:h-20 md:mb-4" >
@@ -45,12 +45,12 @@ const ProjectV3 = () => {
                 </div>
                 <div className="flex flex-col gap-y-1">
                   <div className="text-sm md:text-base font-medium">{projectDataV3.populationhealth.title}</div>
-                  <p className="text-sm md:text-base text-gray-text">{projectDataV3.populationhealth.description}</p>
+                  <p className="text-sm md:text-base">{projectDataV3.populationhealth.description}</p>
                 </div>
             </div>
           </Link>
           <Link href={projectDataV3.standupcomedy.link} target='_blank'>
-            <div className={`rounded-2xl md:rounded-3xl py-8 md:px-10 md:py-12 flex flex-col justify-center items-center text-center hover:bg-[#fae3aa]/20 hover:text-[#bd5c0d] transition-all duration-300 ease-in-out`} 
+            <div className={`rounded-2xl md:rounded-3xl py-8 md:px-10 md:py-12 flex flex-col justify-center items-center text-center hover:bg-[#ffe3e0]/20 hover:text-[#c71054] transition-all duration-300 ease-in-out`} 
                   style={{ border: 'solid 1px #dedede' }} 
             >
                 <div className="rounded-full flex items-center justify-center w-12 h-12 mb-4 md:w-20 md:h-20 md:mb-4" >
@@ -58,12 +58,12 @@ const ProjectV3 = () => {
                 </div>
                 <div className="flex flex-col gap-y-1">
                   <div className="text-sm md:text-base font-medium">{projectDataV3.standupcomedy.title}</div>
-                  <p className="text-sm md:text-base text-gray-text">{projectDataV3.standupcomedy.description}</p>
+                  <p className="text-sm md:text-base">{projectDataV3.standupcomedy.description}</p>
                 </div>
             </div>
           </Link>
           <Link href={projectDataV3.brandstyleguide.link} target='_blank'>
-            <div className={`rounded-2xl md:rounded-3xl py-8 md:px-10 md:py-12 flex flex-col justify-center items-center text-center hover:bg-[#fae3aa]/20 hover:text-[#bd5c0d] transition-all duration-300 ease-in-out`} 
+            <div className={`rounded-2xl md:rounded-3xl py-8 md:px-10 md:py-12 flex flex-col justify-center items-center text-center hover:bg-[#f8e3ff]/20 hover:text-[#652c91] transition-all duration-300 ease-in-out`} 
                   style={{ border: 'solid 1px #dedede' }} 
             >
                 <div className="rounded-full flex items-center justify-center w-12 h-12 mb-4 md:w-20 md:h-20 md:mb-4" >
@@ -71,25 +71,12 @@ const ProjectV3 = () => {
                 </div>
                 <div className="flex flex-col gap-y-1">
                   <div className="text-sm md:text-base font-medium">{projectDataV3.brandstyleguide.title}</div>
-                  <p className="text-sm md:text-base text-gray-text">{projectDataV3.brandstyleguide.description}</p>
-                </div>
-            </div>
-          </Link>
-          <Link href={projectDataV3.fluo.link} target='_blank'>
-            <div className={`rounded-2xl md:rounded-3xl py-8 md:px-10 md:py-12 flex flex-col justify-center items-center text-center hover:bg-[#fae3aa]/20 hover:text-[#bd5c0d] transition-all duration-300 ease-in-out`} 
-                  style={{ border: 'solid 1px #dedede' }} 
-            >
-                <div className="rounded-full flex items-center justify-center w-12 h-12 mb-4 md:w-20 md:h-20 md:mb-4" >
-                  <img alt='' src={projectDataV3.fluo.logo} className="w-12 h-12 md:w-20 md:h-20"/>
-                </div>
-                <div className="flex flex-col gap-y-1">
-                  <div className="text-sm md:text-base font-medium">{projectDataV3.fluo.title}</div>
-                  <p className="text-sm md:text-base text-gray-text">{projectDataV3.fluo.description}</p>
+                  <p className="text-sm md:text-base">{projectDataV3.brandstyleguide.description}</p>
                 </div>
             </div>
           </Link>
           <Link href={projectDataV3.traventure.link} target='_blank'>
-            <div className={`rounded-2xl md:rounded-3xl py-8 md:px-10 md:py-12 flex flex-col justify-center items-center text-center hover:bg-[#fae3aa]/20 hover:text-[#bd5c0d] transition-all duration-300 ease-in-out`} 
+            <div className={`rounded-2xl md:rounded-3xl py-8 md:px-10 md:py-12 flex flex-col justify-center items-center text-center hover:bg-[#e5ffd9]/20 hover:text-[#166109] transition-all duration-300 ease-in-out`} 
                   style={{ border: 'solid 1px #dedede' }} 
             >
                 <div className="rounded-full flex items-center justify-center w-12 h-12 mb-4 md:w-20 md:h-20 md:mb-4" >
@@ -97,12 +84,25 @@ const ProjectV3 = () => {
                 </div>
                 <div className="flex flex-col gap-y-1">
                   <div className="text-sm md:text-base font-medium">{projectDataV3.traventure.title}</div>
-                  <p className="text-sm md:text-base text-gray-text">{projectDataV3.traventure.description}</p>
+                  <p className="text-sm md:text-base">{projectDataV3.traventure.description}</p>
+                </div>
+            </div>
+          </Link>
+          <Link href={projectDataV3.fluo.link} target='_blank'>
+            <div className={`rounded-2xl md:rounded-3xl py-8 md:px-10 md:py-12 flex flex-col justify-center items-center text-center hover:bg-[#ffe6ef]/20 hover:text-[#b51850] transition-all duration-300 ease-in-out`} 
+                  style={{ border: 'solid 1px #dedede' }} 
+            >
+                <div className="rounded-full flex items-center justify-center w-12 h-12 mb-4 md:w-20 md:h-20 md:mb-4" >
+                  <img alt='' src={projectDataV3.fluo.logo} className="w-12 h-12 md:w-20 md:h-20"/>
+                </div>
+                <div className="flex flex-col gap-y-1">
+                  <div className="text-sm md:text-base font-medium">{projectDataV3.fluo.title}</div>
+                  <p className="text-sm md:text-base">{projectDataV3.fluo.description}</p>
                 </div>
             </div>
           </Link>
           <Link href={projectDataV3.landslide.link} target='_blank'>
-            <div className={`rounded-2xl md:rounded-3xl py-8 md:px-10 md:py-12 flex flex-col justify-center items-center text-center hover:bg-[#fae3aa]/20 hover:text-[#bd5c0d] transition-all duration-300 ease-in-out`} 
+            <div className={`rounded-2xl md:rounded-3xl py-8 md:px-10 md:py-12 flex flex-col justify-center items-center text-center hover:bg-[#f3f0f3]/20 hover:text-[#696569] transition-all duration-300 ease-in-out`} 
                   style={{ border: 'solid 1px #dedede' }} 
             >
                 <div className="rounded-full flex items-center justify-center w-12 h-12 mb-4 md:w-20 md:h-20 md:mb-4" >
@@ -110,7 +110,7 @@ const ProjectV3 = () => {
                 </div>
                 <div className="flex flex-col gap-y-1">
                   <div className="text-sm md:text-base font-medium">{projectDataV3.landslide.title}</div>
-                  <p className="text-sm md:text-base text-gray-text">{projectDataV3.landslide.description}</p>
+                  <p className="text-sm md:text-base">{projectDataV3.landslide.description}</p>
                 </div>
             </div>
           </Link>
