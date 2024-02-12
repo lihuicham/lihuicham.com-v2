@@ -35,7 +35,7 @@ const WorkV3 = () => {
             <div className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green opacity-75"></div>
             <div className="relative inline-flex rounded-full h-2.5 w-2.5 bg-green"></div>
           </div>
-          <div className='text-xs md:text-sm text-gray-text font-light'>Actively looking for Summer 2024 internships.&nbsp;
+          <div className='text-xs md:text-sm text-gray-text font-light'>Looking for Summer 2024 internships.&nbsp;
             <Link target="_blank" href={PageLinks.Socials.LinkedIn}>
               <span className="underline underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out">Get in touch</span>
             </Link>
