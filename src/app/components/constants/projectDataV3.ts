@@ -24,7 +24,7 @@ export const projectDataV3 = {
     logo:'/assets/logos/projects/populationhealth.png',
   },
   standupcomedy:{
-    title: 'Standup Comedy Analysis with NLP',
+    title: 'Standup Comedy Analysis',
     description: 'How funny are the comedians ?',
     link: 'https://github.com/lihuicham/standup-comedy-analysis',
     type: 'Machine Learning',
@@ -39,7 +39,7 @@ export const projectDataV3 = {
   },
   fluo:{
     title: 'Fluo App on Demex',
-    description: 'Stake, boost and claim rewards now.',
+    description: 'Stake, boost and claim rewards.',
     link: 'https://app.dem.exchange/pools',
     type: 'SWE',
     logo: '/assets/logos/projects/fluo.png',
