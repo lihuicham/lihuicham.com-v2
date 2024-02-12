@@ -38,7 +38,7 @@ export const projectDataV3 = {
     logo: '/assets/logos/projects/brandstyleguide.png',
   },
   fluo:{
-    title: 'Perp Pool by Fluo (Demex App)',
+    title: 'Fluo App on Demex',
     description: 'Stake, boost and claim rewards now.',
     link: 'https://app.dem.exchange/pools',
     type: 'SWE',

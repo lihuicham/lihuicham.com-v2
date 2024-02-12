@@ -6,12 +6,12 @@ import { PageLinks } from "../constants/PageLinks"
 const HeadlineV3 = () => {
   return (
     <div>
-      <div className="container mx-auto text-primary-text grid w-10/12 pt-10 gap-y-1 md:w-1/2 md:pt-32 md:gap-y-6">
+      <div className="container mx-auto text-primary-text grid w-10/12 pt-20 gap-y-1 md:w-1/2 md:pt-32 md:gap-y-6">
         <div className="drop-shadow">
           <img alt="memoji" src="/assets/me.png" className="object-fit bg-tertiary-base w-14 h-14 lg:w-24 lg:h-24 rounded-full overflow-hidden mb-2 md:mb-4"/>
         </div>
         <h2 className="text-xl md:text-3xl font-medium md:text-4xl">Hey, I am Li Hui</h2>
-        <p className="text-primary-text font-light text-xs md:text-lg md:leading-loose">
+        <p className="text-primary-text font-light text-sm md:text-lg md:leading-loose">
           I am a junior at&nbsp;
           <span className="text-nus-orange font-normal underline underline-offset-2 md:underline-offset-4 hover:underline-offset-4 transition-all duration-300 ease-in-out"><Link href={PageLinks.Schools.NUS} target="_blank">National University of Singapore</Link></span>, 
           majoring in Business Analytics. 
