@@ -29,7 +29,7 @@ const ProjectV3 = () => {
             >
                 <div className="rounded-3xl absolute top-3 left-3 py-1 px-2 text-xs font-medium"
                   style={{ border: 'solid 1px #dedede' }} >
-                  Machine Learning
+                  {projectDataV3.creditcard.tag}
                 </div>
                 <div className="rounded-full flex items-center justify-center w-12 h-12 mb-4 md:w-20 md:h-20 md:mb-4 mt-4">
                   <img alt='' src={projectDataV3.creditcard.logo} className="w-12 h-12 md:w-20 md:h-20"/>
@@ -46,7 +46,7 @@ const ProjectV3 = () => {
             >
                 <div className="rounded-3xl absolute top-3 left-3 py-1 px-2 text-xs font-medium"
                   style={{ border: 'solid 1px #dedede' }} >
-                  Data Visualisation
+                  {projectDataV3.populationhealth.tag}
                 </div>
                 <div className="rounded-full flex items-center justify-center w-12 h-12 mb-4 md:w-20 md:h-20 md:mb-4 mt-4" >
                   <img alt='' src={projectDataV3.populationhealth.logo} className="w-12 h-12 md:w-20 md:h-20"/>
@@ -63,7 +63,7 @@ const ProjectV3 = () => {
             >
                 <div className="rounded-3xl absolute top-3 left-3 py-1 px-2 text-xs font-medium"
                   style={{ border: 'solid 1px #dedede' }} >
-                  Natural Language Processing
+                  {projectDataV3.standupcomedy.tag}
                 </div>
                 <div className="rounded-full flex items-center justify-center w-12 h-12 mb-4 md:w-20 md:h-20 md:mb-4 mt-4" >
                   <img alt='' src={projectDataV3.standupcomedy.logo} className="w-12 h-12 md:w-20 md:h-20"/>
@@ -80,7 +80,7 @@ const ProjectV3 = () => {
             >
                 <div className="rounded-3xl absolute top-3 left-3 py-1 px-2 text-xs font-medium"
                   style={{ border: 'solid 1px #dedede' }} >
-                  Design
+                  {projectDataV3.brandstyleguide.tag}
                 </div>
                 <div className="rounded-full flex items-center justify-center w-12 h-12 mb-4 md:w-20 md:h-20 md:mb-4 mt-4">
                   <img alt='' src={projectDataV3.brandstyleguide.logo} className="w-12 h-12 md:w-20 md:h-20"/>
@@ -97,7 +97,7 @@ const ProjectV3 = () => {
             >
                 <div className="rounded-3xl absolute top-3 left-3 py-1 px-2 text-xs font-medium"
                   style={{ border: 'solid 1px #dedede' }} >
-                  Product Management
+                  {projectDataV3.traventure.tag}
                 </div>
                 <div className="rounded-full flex items-center justify-center w-12 h-12 mb-4 md:w-20 md:h-20 md:mb-4 mt-4">
                   <img alt='' src={projectDataV3.traventure.logo} className="w-12 h-12 md:w-20 md:h-20"/>
@@ -114,7 +114,7 @@ const ProjectV3 = () => {
             >
                 <div className="rounded-3xl absolute top-3 left-3 py-1 px-2 text-xs font-medium"
                   style={{ border: 'solid 1px #dedede' }} >
-                  Software Engineering
+                  {projectDataV3.fluo.tag}
                 </div>
                 <div className="rounded-full flex items-center justify-center w-12 h-12 mb-4 md:w-20 md:h-20 md:mb-4 mt-4">
                   <img alt='' src={projectDataV3.fluo.logo} className="w-12 h-12 md:w-20 md:h-20"/>
@@ -131,7 +131,7 @@ const ProjectV3 = () => {
             >
                 <div className="rounded-3xl absolute top-3 left-3 py-1 px-2 text-xs font-medium"
                   style={{ border: 'solid 1px #dedede' }} >
-                  Data Storytelling
+                  {projectDataV3.landslide.tag}
                 </div>
                 <div className="rounded-full flex items-center justify-center w-12 h-12 mb-4 md:w-20 md:h-20 md:mb-4 mt-4">
                   <img alt='' src={projectDataV3.landslide.logo} className="w-12 h-12 md:w-20 md:h-20"/>
