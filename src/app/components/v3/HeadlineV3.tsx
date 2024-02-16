@@ -45,9 +45,6 @@ const HeadlineV3 = () => {
               <span className="text-[#DD6E5E] underline underline-offset-2 md:underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Recents.Friendzyme} target="_blank">Friendzyme</Link></span>
               &nbsp;with Figma.
             </li>
-            <li>
-              - Planning a trip to the West Coast for spring break.
-            </li>
           </ul>
         </div>
         <div className="flex gap-4 md:gap-6 mt-4 md:mt-6">
