@@ -7,7 +7,7 @@ export const PageLinks = {
     TheStraitsTimes: 'https://www.straitstimes.com/',
     SwitcheoLabs: 'https://www.switcheo.com/',
     NUSComputing: 'https://www.comp.nus.edu.sg/',
-    
+    PnG: 'https://us.pg.com/',
   },
   Recents: {
     SwinTransformer: 'https://docs.google.com/presentation/d/1qj7UbCLtAQGRbAGVwf-0YOB0SIZzk99e_qzIxph_w60/edit?usp=sharing',

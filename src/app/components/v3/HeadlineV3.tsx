@@ -32,6 +32,11 @@ const HeadlineV3 = () => {
           &nbsp;building apps and analysing data. 
           This spring, I am on a student exchange programme at the&nbsp;
           <span className="text-unc-blue font-normal underline underline-offset-2 md:underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Schools.UNC} target="_blank">University of North Carolina at Chapel Hill</Link></span>. 
+          <br />
+          Li Hui is joining &nbsp;
+          <span className="text-[#0073C5] underline underline-offset-2 md:underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Companies.PnG} target="_blank">P&G</Link></span>
+          &nbsp; 
+          in Summer 2024 as a Data Science Intern ! 
         </p>
         <div>
           <h3 className="md:text-lg font-medium">Recent Updates</h3>
