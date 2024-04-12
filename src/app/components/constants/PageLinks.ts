@@ -11,6 +11,7 @@ export const PageLinks = {
   },
   Recents: {
     SwinTransformer: 'https://docs.google.com/presentation/d/1qj7UbCLtAQGRbAGVwf-0YOB0SIZzk99e_qzIxph_w60/edit?usp=sharing',
+    VATT: 'https://docs.google.com/presentation/d/18gUP_IMTrxUiRljY9hTv0md0KBUOJtfa4b2UOKI43fg/edit?usp=sharing',
     Friendzyme: 'https://www.figma.com/file/oRZQUrJLw8K8D37Jgm9DvX/Li-Hui-Cham-Working-File?type=design&node-id=0%3A1&mode=design&t=AK479uYOH8atIu58-1',
   },
   Socials: {

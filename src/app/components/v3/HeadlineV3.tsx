@@ -30,7 +30,7 @@ const HeadlineV3 = () => {
           &nbsp;and&nbsp;
           <span className="text-switcheolabs-green font-normal underline underline-offset-2 md:underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Companies.SwitcheoLabs} target="_blank">Switcheo Labs</Link></span>
           &nbsp;building apps and analysing data. 
-          This spring, I am on a student exchange programme at the&nbsp;
+          This spring, I am studying abroad at the&nbsp;
           <span className="text-unc-blue font-normal underline underline-offset-2 md:underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Schools.UNC} target="_blank">University of North Carolina at Chapel Hill</Link></span>. 
           <br />
           Li Hui is joining &nbsp;
@@ -42,8 +42,11 @@ const HeadlineV3 = () => {
           <h3 className="md:text-lg font-medium">Recent Updates</h3>
           <ul className="text-sm md:text-lg font-light">
             <li>
-              - Learning Vision Transformers through paper critiques and&nbsp;
-              <span className="underline underline-offset-2 md:underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Recents.SwinTransformer} target="_blank">presentations</Link></span>.
+              - Presented on ViT papers :&nbsp;
+              <span className="underline underline-offset-2 md:underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Recents.SwinTransformer} target="_blank">Swin Transformer</Link></span>
+              &nbsp;and&nbsp;
+              <span className="underline underline-offset-2 md:underline-offset-4 hover:underline-offset-6 transition-all duration-300 ease-in-out"><Link href={PageLinks.Recents.VATT} target="_blank">VATT</Link></span>
+              .
             </li>
             <li>
               - Designing a social gathering planning app,&nbsp;
