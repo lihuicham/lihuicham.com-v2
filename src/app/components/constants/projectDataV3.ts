@@ -19,21 +19,21 @@ export const projectDataV3 = {
   populationhealth:{
     title: 'Population Health Programme',
     description: 'Visualising Singapore\'s public health data.',
-    link: 'https://drive.google.com/file/d/1vyhNeBhmO-tWPZh08vhZ4Wk0K2Io8BEL/view?usp=drive_link',
+    link: 'https://drive.google.com/file/d/1cld-T4EmSATcyCI69TUBUIeH_Ip0ikbi/view?usp=sharing',
     tag: 'Data Visualisation',
     logo:'/assets/logos/projects/populationhealth.png',
   },
   standupcomedy:{
     title: 'Standup Comedy Analysis',
     description: 'How funny are the comedians ?',
-    link: 'https://github.com/lihuicham/standup-comedy-analysis',
+    link: 'https://drive.google.com/file/d/1ei0YCKuJ17VD0O9znLD3bzH5m9YeYKMy/view?usp=sharing',
     tag: 'Natural Language Processing',
     logo: '/assets/logos/projects/standupcomedy.png',
   },
   brandstyleguide:{
     title: 'Brand Style Guide',
     description: 'My personal brand identity.',
-    link: 'https://drive.google.com/file/d/1Agx606I5Ht1OFVD_eWN3NNNJeorh-J_C/view?usp=drive_link',
+    link: 'https://drive.google.com/file/d/10q39m9ljh5HSlmDgcLRXYCVfZSPa63WV/view?usp=sharing',
     tag: 'Design',
     logo: '/assets/logos/projects/brandstyleguide.png',
   },
@@ -47,7 +47,7 @@ export const projectDataV3 = {
  traventure:{
     title: 'Traventure App',
     description: 'Agile tech product management.',
-    link: 'https://docs.google.com/spreadsheets/d/1yGKUngdP5fGHOQmZWxFVd2KDVAtkpxnG/edit?usp=sharing&ouid=104164752399865493343&rtpof=true&sd=true',
+    link: 'https://docs.google.com/spreadsheets/d/13vpUyRUoKINa7QI_pfSxiKrpnfEwiLk2/edit?usp=sharing&ouid=104164752399865493343&rtpof=true&sd=true',
     tag: 'Product Management',
     logo: '/assets/logos/projects/traventure.png',
   },

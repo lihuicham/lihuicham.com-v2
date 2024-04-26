@@ -16,9 +16,9 @@ const AwardV3 = () => {
                 <Link href={e.link} key={index} target='_blank'>
                   <div className="font-light flex flex-row justify-between pb-2 md:pb-4 md:pt-4 md:px-2 hover:bg-[#e8e8e8]/20 transition-all duration-300 ease-in-out" style={{ borderBottom: 'solid 1px #dedede' }}>
                     <div className="flex flex-row items-center md:space-x-4">
-                      <div className="rounded-full hidden md:flex items-center justify-center w-4 h-4 md:w-8 md:h-8">
+                      {/* <div className="rounded-full hidden md:flex items-center justify-center w-4 h-4 md:w-8 md:h-8">
                         <img alt={e.title} src="/assets/logos/others/medal.png" className="w-4 h-4 md:w-8 md:h-8"/>
-                      </div>
+                      </div> */}
                       <div className="flex flex-col space-y-1">
                         <div className="text-sm md:text-base font-medium">{e.title}</div>
                         <div className="text-xs md:text-sm pr-1 md:hidden">{e.date}</div>

@@ -15,9 +15,9 @@ const WorkV3 = () => {
               return (
                 <div key={index} className="font-light flex flex-row justify-between pb-2" style={{ borderBottom: 'solid 1px #dedede' }}>
                   <div className="flex flex-row items-center space-x-4">
-                    <div className="rounded-full flex items-center justify-center w-6 h-6 md:w-8 md:h-8" >
+                    {/* <div className="rounded-full flex items-center justify-center w-6 h-6 md:w-8 md:h-8" >
                       <img alt={e.company} src={e.logo} className="w-6 h-6 md:w-8 md:h-8"/>
-                    </div>
+                    </div> */}
                     <div className="">
                       <div className="text-sm md:text-base font-medium">{e.company}</div>
                       <div className="text-xs md:text-sm pr-1 md:hidden">{e.date}</div>
